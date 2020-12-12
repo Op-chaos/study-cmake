@@ -1,0 +1,26 @@
+Determining if the function pow exists failed with the following output:
+Change Dir: /home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2756396486/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2756396486.dir/build.make CMakeFiles/cmTryCompileExec2756396486.dir/build
+make[1]: Entering directory '/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2756396486.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   -o CMakeFiles/cmTryCompileExec2756396486.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.1/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’ [-Wbuiltin-declaration-mismatch]
+/usr/local/share/cmake-3.1/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTryCompileExec2756396486
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2756396486.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow   CMakeFiles/cmTryCompileExec2756396486.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2756396486 -rdynamic 
+CMakeFiles/cmTryCompileExec2756396486.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pow'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec2756396486.dir/build.make:88: recipe for target 'cmTryCompileExec2756396486' failed
+make[1]: Leaving directory '/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2756396486] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2756396486/fast' failed
+make: *** [cmTryCompileExec2756396486/fast] Error 2
+
+

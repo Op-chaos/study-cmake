@@ -1,0 +1,2 @@
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/CMakeFiles/Demo.dir
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/math/CMakeFiles/MathFunctions.dir

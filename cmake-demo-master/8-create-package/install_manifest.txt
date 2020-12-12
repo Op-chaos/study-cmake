@@ -1,0 +1,4 @@
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/_CPack_Packages/Linux/TZ/Demo8-1.0.1-Linux/bin/Demo
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/_CPack_Packages/Linux/TZ/Demo8-1.0.1-Linux/include/config.h
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/_CPack_Packages/Linux/TZ/Demo8-1.0.1-Linux/lib/libMathFunctions.a
+/home/ge/Desktop/study-cmake/cmake-demo-master/8-create-package/_CPack_Packages/Linux/TZ/Demo8-1.0.1-Linux/include/MathFunctions.h
